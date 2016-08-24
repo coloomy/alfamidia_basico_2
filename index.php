@@ -1,24 +1,34 @@
-
 <?php
-$v1=10; $v2=5;
-echo "<h2>Valor $v1 e Valor $v2</h2>"  ;
+echo "<h2>OPERADORES LOGICOS</h2>"  ;
 
-echo "<h2>SOMA</h2>";
-echo $resultado=$v1+$v2;
-echo "<br/>";
+$a=true; 
+$b=true;
+    
+     if ($a and $b){
+         
+         echo "A e B é igual a Verdadeiro<br/>";
+     }
+     if ($a or $b){
+         
+         echo "A ou B é igual a Verdadeiro<br/>";
+     }
+     if ($a xor $b){
+         
+         echo "A ou B é igual a Falso<br/>";
+     }
+     if ($a && $b){
+         
+         echo "A e B é igual a Verdadeiro<br/>";
+     }
+     if ($a || $b){
+         
+         echo "A ou B é igual a Verdadeiro<br/>";
+     }
+     if (!$a and $b){
+         
+         echo "Não A e B é igual a Falso<br/>";
+     }
+    
 
-echo "<h2>SUBTRAÇÃO</h2>";
-echo $resultado=$v1-$v2;
-echo "<br/>";
 
-echo "<h2>MULTIPLICAÇÃO</h2>";
-echo $resultado=$v1*$v2;
-echo "<br/>";
-
-echo "<h2>DIVISÃO</h2>";
-echo $resultado=$v1/$v2;
-echo "<br/>";
-
-echo "<h2>MÓDULO - RESTO DA DIVISÃO</h2>";
-echo $resultado=$v1%$v2;
-echo "<br/>";
+?>
