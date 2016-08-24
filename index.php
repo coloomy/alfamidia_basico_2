@@ -1,38 +1,24 @@
+
 <?php
+$v1=10; $v2=5;
+echo "<h2>Valor $v1 e Valor $v2</h2>"  ;
 
-/*
-$str = "<br/>STRING";
+echo "<h2>SOMA</h2>";
+echo $resultado=$v1+$v2;
+echo "<br/>";
 
-echo $str;
+echo "<h2>SUBTRAÇÃO</h2>";
+echo $resultado=$v1-$v2;
+echo "<br/>";
 
-echo strMinusculo ($str);
+echo "<h2>MULTIPLICAÇÃO</h2>";
+echo $resultado=$v1*$v2;
+echo "<br/>";
 
-echo $str;
+echo "<h2>DIVISÃO</h2>";
+echo $resultado=$v1/$v2;
+echo "<br/>";
 
-
-function strMinusculo ($str)
-{
-	$s = $str;
-	
-	$s = strtolower ($s);
-	
-	return $s; 
-}*/
-//proximo exemplo
-
-
-
-
-$str = "<br/>STRING";
-
-echo $str;
-
-echo strMinusculo ($str);
-
-echo $str;
-
-
-function strMinusculo ($str)
-{
-	return "<br/>".strtolower($str)."<br/>";
-}
+echo "<h2>MÓDULO - RESTO DA DIVISÃO</h2>";
+echo $resultado=$v1%$v2;
+echo "<br/>";
