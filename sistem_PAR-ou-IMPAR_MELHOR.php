@@ -1,9 +1,12 @@
 <?php
 
-define("VALOR_MAX", getrandmax());
-define("VALOR_MIN", 0);
-$a = rand(VALOR_MIN, VALOR_MAX);
-$b = rand(VALOR_MIN, VALOR_MAX);
+$a = rand(0, getrendmax());
+$b = rand(0, getrendmax());
+
+//Os dois valores são pares?
+//Qual é o Valor Par?
+//Qual é o valor impar?
+//Os dois valores são impares?
 
 if (($a % 2 == 0) && ($b % 2 == 0)) {
 
